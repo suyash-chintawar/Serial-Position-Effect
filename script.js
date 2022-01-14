@@ -13,7 +13,7 @@ function startGame1() {
 function restartGame() {
     sessionStorage.removeItem("targetList");
     sessionStorage.removeItem("selectedList");
-    window.location.href="home.html";
+    window.location.href="index.html";
 }
 
 function startTime() {
