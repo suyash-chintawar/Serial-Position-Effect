@@ -7,13 +7,13 @@ var targetList;
 
 
 function startGame1() {
-    window.location.href="game1.html";
+    window.location.href="game1";
 }
 
 function restartGame() {
     sessionStorage.removeItem("targetList");
     sessionStorage.removeItem("selectedList");
-    window.location.href="index.html";
+    window.location.href="/";
 }
 
 function startTime() {
