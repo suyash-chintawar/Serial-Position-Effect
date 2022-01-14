@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Serial Position Effect (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime();getResult();">
+    <div id="wrapper">
+        <div id="header">
+            <h1> Serial Position Effect</h1>
+        </div>
+        <div id="content" style="height: 500px; margin: 0 auto;">
+            
+            <div id="info" style="margin: 20px;">
+                <h2 style="padding: 10px;">Congratulations! You completed the experiment!</h2>
+                <div id="score" style="padding: 10px; font-size: 20px; color: red; font-weight: bold;"></div>
+                <div id="recallStart" style="padding: 5px; font-size: 20px;"></div>
+                <div id="recallMid" style="padding: 5px; font-size: 20px;"></div>
+                <div id="recallEnd" style="padding: 5px; font-size: 20px;"></div>
+                <div id="analysis" style="padding: 5px; font-size: 20px; color: red; font-weight: bold;"></div>
+            </div>
+            <button onclick="restartGame()"> RESTART </button>
+        </div>
+        <div id="footer">
+            Serial Position Effect, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

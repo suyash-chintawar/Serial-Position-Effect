@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Serial Position Effect (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime();getList(10);startCountdown1();">
+    <div id="wrapper">
+        <div id="header">
+            <h1> Serial Position Effect</h1>
+        </div>
+        <div id="content" style="height: 500px; margin: 0 auto;">
+            <div id="info" style="margin: 20px;">
+                <div style="padding: 5px; font-size: 20px; color: red; font-weight: bold;">Memorize as many animals as you can!</div>
+                <div id="0" style="padding: 5px; font-size: 20px;"></div>
+                <div id="1" style="padding: 5px; font-size: 20px;"></div>
+                <div id="2" style="padding: 5px; font-size: 20px;"></div>
+                <div id="3" style="padding: 5px; font-size: 20px;"></div>
+                <div id="4" style="padding: 5px; font-size: 20px;"></div>
+                <div id="5" style="padding: 5px; font-size: 20px;"></div>
+                <div id="6" style="padding: 5px; font-size: 20px;"></div>
+                <div id="7" style="padding: 5px; font-size: 20px;"></div>
+                <div id="8" style="padding: 5px; font-size: 20px;"></div>
+                <div id="9" style="padding: 5px; font-size: 20px;"></div>
+            </div>
+            <div id="countdown" style="color: red; font-weight: bold; font-size: 20px;"></div>
+        </div>
+        <div id="footer">
+            Serial Position Effect, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+        var timer = setTimeout(function() {
+            window.location.href="game2.html"
+        }, 10000);
+    </script>
+</body>
+</html>
